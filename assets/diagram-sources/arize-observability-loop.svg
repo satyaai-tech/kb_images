@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 370" role="img" aria-labelledby="title description">
+  <title id="title">From agent traces to regression tests</title>
+  <desc id="description">Instrumentation emits spans. Teams review sanitized traces, curate a dataset and compare agent versions. After release, they continue observing new traces.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#087d79"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="370" rx="26" fill="#f3f7fa"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="36" y="53" fill="#08716d" font-size="16" font-weight="700" letter-spacing="2">ARIZE / AGENT OBSERVABILITY</text>
+    <text x="36" y="99" fill="#112943" font-size="36" font-weight="700">From agent traces to regression tests</text>
+    <g fill="white" stroke="#c5d5e0">
+      <rect x="36" y="135" width="238" height="126" rx="14"/>
+      <rect x="306" y="135" width="238" height="126" rx="14"/>
+      <rect x="576" y="135" width="238" height="126" rx="14"/>
+      <rect x="846" y="135" width="238" height="126" rx="14"/>
+    </g>
+    <g fill="#112943" font-size="20" font-weight="700">
+      <text x="54" y="174">1. Instrument</text>
+      <text x="324" y="174">2. Inspect and score</text>
+      <text x="594" y="174">3. Curate a dataset</text>
+      <text x="864" y="174">4. Compare versions</text>
+    </g>
+    <g fill="#39536a" font-size="16">
+      <text x="54" y="207">OpenInference spans</text><text x="54" y="232">exported over OTLP</text>
+      <text x="324" y="207">Review sanitized traces</text><text x="324" y="232">in Phoenix or AX</text>
+      <text x="594" y="207">Save representative cases</text><text x="594" y="232">and known failures</text>
+      <text x="864" y="207">Run baseline and candidate</text><text x="864" y="232">on the same examples</text>
+    </g>
+    <g stroke="#087d79" stroke-width="2" fill="none" marker-end="url(#arrow)">
+      <path d="M278 198H300"/><path d="M548 198H570"/><path d="M818 198H840"/>
+      <path d="M965 268V315H425V268"/>
+    </g>
+    <rect x="519" y="299" width="352" height="33" rx="16" fill="#f3f7fa"/>
+    <text x="695" y="321" text-anchor="middle" fill="#08716d" font-size="16" font-weight="700">Release and keep observing new traces</text>
+  </g>
+</svg>
